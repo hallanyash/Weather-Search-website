@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+input[type='text']::placeholder
+    {   
+        text-align: start ;
+        font-size: larger;
+        padding: 15px;  
+        margin: 8px;  
+    }
+.wrapper{
+    background: url(background.jpg);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    background-color:  rgba(255, 255, 255, 0.327);
+    border-radius:20px ;
+    height: 80vh;
+    background: blur;
+    width: 30%;
+}
+.searchbar{
+    font-size: 15px;
+    border-radius: 20px;
+    border: 0px solid white;
+    height: 50px;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.searchbutton{
+    background-color: white;
+    border: 0px white solid;
+    color: black;
+    cursor: pointer;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 10px;
+    height:  50px;
+   border-radius: 20px;
+}
+.icon{
+    height: 200px;
+    width: 200px;
+    margin-top: -10px;
+    margin-left: 25%;
+}
+.temp{
+    margin-left: 32%;
+    font-size: 60px;
+}
+.cityname{
+    margin-left: 25%;
+    font-size: 60px;   
+}
+.bottom{
+    display: flex;
+}
+.humidityphoto{
+    height: 50px;
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.humidity{
+    /* color: white; */
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 25px;
+}
+.humiditytext{
+    font-size: 20px;
+    /* color: white; */
+    margin-top:100px;
+    margin-left: -45px; 
+}
+.wind{
+    margin-left: 100px;
+    margin-top: 60px;
+    height: 60px;
+    width: 40px;
+}
+.speed{
+    /* color: white; */
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 20px;
+}
